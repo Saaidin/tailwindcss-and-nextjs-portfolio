@@ -30,17 +30,18 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
+              Hi, my name is Saaidin and I am a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              <span className="font-bold">{" driven"}</span> Front-end Web
+              Developer based in Kedah, Malaysia.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+              I have been working in the field over 2 years ago. Some of the my
+              core skills as a front-end developer include proficiency in HTML,
+              CSS, JavaScript and other front-end frameworks such as Next-JS,
+              React, etc.
             </p>
             <br />
             <p>
@@ -76,7 +77,7 @@ const AboutSection = () => {
               })}
             </div>
             <Image
-              src="/hero-image.png"
+              src="/man-wave-hand.png"
               alt=""
               width={325}
               height={325}
