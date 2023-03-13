@@ -6,27 +6,28 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "E-commerce Store",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "This Store website is using NextJS and Sanity CMS. And I using Stripe for payment purposes. If you are planning to create an E-commerce store, then consider using NextJS and Sanity CMS, two powerhouses that can make your life a lot easier. NextJS enables developers to build server-rendered React applications with ease, while Sanity CMS allows for easy content and data management.",
+    image: "/1-ecom-store.png",
+    github: "https://github.com/Saaidin/ecommerce_sanity_stripe_p18",
+    link: "https://ecommerce-sanity-stripe-p18.vercel.app",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "E-commerce - Pizza Store",
+    description:
+      "This is simple website using Next.JS, Tailwind CSS and Contentful CMS. This Pizza Stores website comprise of components such as header, footer, card, etc. I must keep remember on how to make slug endpoint, getStaticProps, getStaticPaths, getServerProps, etc. It hard to remember since there are a lot way to do it, but must choose the way that working for me. I can also refer to ChatGPT and ask to explain about all this code.",
+    image: "/2-ecom-pizza-store.png",
+    github: "https://github.com/Saaidin/next-contentful",
+    link: "https://next-contentful-saaidin.vercel.app",
   },
   {
-    name: "Kator Family Photos",
+    name: "E-commerce - Food Store",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "This Food Store website is using ReactJS and Tailwind CSS. With JSON data, we can retrieve a food photos and it's particular. With Tailwind, we can design a layout and integrate with those data using ReactJS. If you want to create an E-commerce store in today's world, using ReactJS and Tailwind CSS can help you develop a highly customizable website and integrate with various payment technologies like Stripe ensuring seamless and efficient transactions.",
+    image: "/3-ecom-burger-store.png",
+    github: "https://github.com/Saaidin/food-reactjs-twcss-p13",
+    link: "https://saaidin-food-p13.netlify.app",
   },
 ]
 
@@ -80,7 +81,6 @@ const ProjectsSection = () => {
             </div>
           )
         })}
-        
       </div>
     </section>
   )
